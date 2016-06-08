@@ -1,0 +1,20 @@
+#
+# Generated - do not edit!
+#
+# NOCDDL
+#
+CND_BASEDIR=`pwd`
+# pic32mx795_pim_e16_int_dyn configuration
+CND_ARTIFACT_DIR_pic32mx795_pim_e16_int_dyn=dist/pic32mx795_pim_e16_int_dyn/production
+CND_ARTIFACT_NAME_pic32mx795_pim_e16_int_dyn=cdc_serial_emulator.X.production.hex
+CND_ARTIFACT_PATH_pic32mx795_pim_e16_int_dyn=dist/pic32mx795_pim_e16_int_dyn/production/cdc_serial_emulator.X.production.hex
+CND_PACKAGE_DIR_pic32mx795_pim_e16_int_dyn=${CND_DISTDIR}/pic32mx795_pim_e16_int_dyn/package
+CND_PACKAGE_NAME_pic32mx795_pim_e16_int_dyn=cdcserialemulator.x.tar
+CND_PACKAGE_PATH_pic32mx795_pim_e16_int_dyn=${CND_DISTDIR}/pic32mx795_pim_e16_int_dyn/package/cdcserialemulator.x.tar
+# pic32mz_ef_sk_int_dyn configuration
+CND_ARTIFACT_DIR_pic32mz_ef_sk_int_dyn=dist/pic32mz_ef_sk_int_dyn/production
+CND_ARTIFACT_NAME_pic32mz_ef_sk_int_dyn=cdc_serial_emulator.X.production.hex
+CND_ARTIFACT_PATH_pic32mz_ef_sk_int_dyn=dist/pic32mz_ef_sk_int_dyn/production/cdc_serial_emulator.X.production.hex
+CND_PACKAGE_DIR_pic32mz_ef_sk_int_dyn=${CND_DISTDIR}/pic32mz_ef_sk_int_dyn/package
+CND_PACKAGE_NAME_pic32mz_ef_sk_int_dyn=cdcserialemulator.x.tar
+CND_PACKAGE_PATH_pic32mz_ef_sk_int_dyn=${CND_DISTDIR}/pic32mz_ef_sk_int_dyn/package/cdcserialemulator.x.tar

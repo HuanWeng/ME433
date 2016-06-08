@@ -1,0 +1,15 @@
+How my robot works
+
+1.Robot design:
+My strategy is to make the framework as light and simple as possible so it won¡¯t waste much torque from two little motor. I cut three hollow wooden parts, one for the bottom and two for the sides. I made a girder instead of a wooden board to tilt my phone. In case of any problems from the motors, I printed two holders for them the bottom to make the motors easy to replace. 
+To get the faster speed, I try to use the largest wheels and the wheels should be designed to be light. To decrease the friction, I paste a metal ball on the cap of a screw to be my robot¡¯s fulcrum.
+There¡¯s still some improvement such as printing a part with a hole to hold the metal ball to let it rotate when running and making the center of gravity as low as possible.
+
+2.Android code:
+Based on the code given, I choose the suitable ¡°startY¡± value which decides which row of the picture of camera I used to verify the line. I set the camera to show colors and the white balance to DAYLIGHT. I¡¯ve tried opening the flash light but it will distribute the power from the phone and slow down the motor. For the algorithm of verifying the line, I try many ways such as judging whether the R value of the pixel is larger than a number, whether the reduction of R value and G value is larger than a number, and whether the R value is larger than both G and B values. All the three above works in the lab in Ford but at last the third one seems better because of the lightness interference. I just use the ¡°COM¡± value but I modify the assignment of it so now when the camera cannot verify any red line, the ¡°COM¡± value will keep its last value when the red line is detected. This is very helpful when the robot makes some sharp turns because if the robot run out of the line, it will keep turning in the same direction and come back to the track. 
+Some other advanced algorithm can be applied here.
+
+3.PIC code:
+Using the ¡°COM¡± value sent by the phone, in the PIC code I just assigned the PWM to be the maximum initially and when ¡°COM¡± becomes larger or smaller, I make the linear decrease of the PWM value. That is, the PWM=100% when ¡°COM¡±=320 and PWM=33% when ¡°COM¡±=0 or ¡°COM¡±=640. This can work in my robot but it seems not suitable for any robot because of the different design. 
+Actually some PID control can be added in setting the PWM value to make it more accurate, which will also make the robot run faster.
+
